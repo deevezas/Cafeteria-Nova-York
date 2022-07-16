@@ -1,0 +1,43 @@
+body {
+    font-family: helvetica;
+    text-align: center;
+    color: bisque;
+    background-color:rgb(52, 42, 42);
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid ;
+}
+
+nav ul {
+    display: flex;    
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li a {
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    border: 1px solid wheat;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid wheat;
+    margin-top: 30px;
+}
